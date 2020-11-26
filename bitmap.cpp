@@ -29,7 +29,7 @@ namespace BMP{
 		tagBITMAPINFOHEADER h2;
 		std::vector<tagRGBQUAD>rgb;
 //		std::vector<>;
-//		1 4 8Ë÷Òý
+//		1 4 8Ã‹Ã·Ã’Ã½
 //		16 24 32rgb 
 		inline int size_line(){
 			int DataSizePerLine=(h2.biWidth*h2.biBitCount+31)/8;
